@@ -1,7 +1,9 @@
 # cert_sign.gemspec
+require_relative "lib/cert_sign/version"
+
 Gem::Specification.new do |s|
   s.name        = "cert_sign"
-  s.version     = "0.1.0"
+  s.version     = CertSign::VERSION
   s.summary     = "Assinatura digital PAdES (PDF) com certificado A1/A3 (ICP-Brasil pronto)."
   s.description = "Assine PDFs em Ruby/Rails usando HexaPDF. Preview no browser, marcação do local e assinatura PAdES."
   s.authors     = ["Luiz Cláudio de Castro Figueredo"]
