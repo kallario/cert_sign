@@ -9,12 +9,12 @@ Gem::Specification.new do |s|
   s.authors     = ["Luiz Cláudio de Castro Figueredo"]
   s.email       = ["luizfigueredo@gmail.com"]
   s.files       = Dir["lib/**/*"]
-  s.homepage    = "https://github.com/luizclaudiocfigueredo"
+  s.homepage    = "https://github.com/luizclaudiofigueredo"
   s.license     = "MIT"
 
   s.required_ruby_version = ">= 3.0"
 
-  s.add_dependency "hexapdf", ">= 0.41"
-  s.add_dependency "openssl" # stdlib, mas declaramos
+  s.add_dependency "hexapdf", ">= 1.41"
+  s.add_dependency "openssl"
   s.add_development_dependency "rake"
 end
